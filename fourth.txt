@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fourth Quarter Portfolio</title>
+        <style>
+            body {
+                background-color: #ADEBB3;
+                color: #006745;
+                text-align: center;
+            }
+            h1 {
+                text-align: center;
+            }
+            img {
+                display: block;
+                margin: auto;
+            }
+            hr {
+                border: 2px solid #006745;
+            }
+        </style>
+        <script type="text/javascript">
+            function add() {
+                var A = Number(document.example.firstno.value);
+                var B = Number(document.example.secondno.value);
+                var C = Number(document.example.thirdno.value);
+                var D = A + B + C;
+                document.example.sumnno.value = D; 
+                
+         
+            }
+            
+            
+        </script>
+    </head>
+    <body>
+        <h1>Fourth Quarter Portfolio</h1>
+        <p>
+            If you want to see my previous portfolios, 
+            <a href="https://brilliant-gaufre-3cbfb2.netlify.app/" target="_blank">click here</a>.
+        </p>
+        <hr>
+        <br>
+        
+        <h3 align="left">Events</h3>
+        <p align="left">- Following events were attended by the student</p>
+        
+        <h3>Battle Of the Bands</h3>
+        <p align="left">We, the Cool Pals, competed in the Battle of the Bands last February 22, 2025. I was the bassist of the band. Truly, it was a great experience for us. We hope to compete again next year. We will become better and stronger. 💪</p>
+        <img src="botb.jpg" alt="Battle of the Bands">
+        <p>Credits to Russell's Father and Brylle's Relative</p>
+        
+        <br><br>
+        
+        <h3>Brainiac Robotics Challenge - Entry Level</h3>
+        <p align="left">The Research Team #2 competed in the Research Fair at De La Salle Santiago Zobel last March 8, 2025. They secured 5th place for the Best Board Display. They would like to thank Ms. Cza for the help in making their poster. 😁</p>
+        <img src="brainiac.jpg" alt="Brainiac Robotics Challenge">
+        <p>Credits to Trevis Ebeo for the Picture</p>
+        
+        <br><br>
+        
+        <h3>One Act Musical Play</h3>
+        <p align="left">The Fairness prepared a One Act Musical play that will be held on March 17, 2025. Watch us as we bring the story of a hidden relationship between two girls in real life. 👀</p>
+        <img src="oamp.jpg" alt="One Act Musical Play">
+        <p>Credits to Trevis Ebeo for the Picture</p> <br><br>
+        <hr>
+        <h1> Browser Outputs</h1>
+        <img src="bo.jpg" alt="Browser Outputs">
+        <p>Lesson 4 will be presented on Monday 😁. Goodluck po sa observation 💪🤞.</p>
+        <hr>
+        <h1>Reflection</h1>
+        
+        <hr>
+        
+        <h1>Rate my Portfolio!</h1>
+        <form name="example">
+            Content (/25) <input type="text" name="firstno" value=""> +
+            Creativity (/15) <input type="text" name="secondno" value=""> +
+            Timeliness (/10) <input type="text" name="thirdno" value=""> =
+            <br><br>
+            Total: <input type="text" name="sumnno" value="">
+            <br><br>
+            <input type="button" name="adding" value="Submit" onclick="add()">
+            <p>Thank you, Miss U!</p>
+        </form>
+    </body>
+</html>
